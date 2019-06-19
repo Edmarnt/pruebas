@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: arial;
+}
+
+body {
+  background-image: linear-gradient(to left, pink, rgb(46, 48, 134));
+  height: 100vh;
+}
+
+form {
+  background-color: #f2fafc;
+  border: 5px solid lightblue;
+  border-bottom: none;
+  padding: 40px 20px;
+  width: 200px;
+  text-align: center;
+  margin: 60px auto 0 auto;
+}
+
+label {
+  display: block;
+  margin: 15px 0 5px 0;
+  text-align: left;
+}
+
+input {
+  width: 100%;
+}
+
+.gender-box {
+  display: inline-block;
+  width: 48%;
+}
+
+.gender-box label {
+  text-align: center;
+}
+
+.gender-box input {
+  width: auto;
+}
+
+#signin-button {
+  border: 5px solid lightblue;
+  background-color: lightblue;
+  border-top: none;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  padding: 20px 0;
+  width: 250px;
+  font-weight: bold;
+}
+
+#signin-button:hover {
+  color: white;
+}
+
+.welcome {
+  display: none;
+  border: 5px solid lightblue;
+  background-color: #f2fafc;
+  padding: 20px;
+  margin: 0 auto;
+  width: 300px;
+  text-align: center;
+}

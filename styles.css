@@ -1,0 +1,28 @@
+.pick {
+    border: 5px solid rgb(36, 16, 151);
+    cursor: pointer;
+    display: inline-block;
+    height: 150px;
+    width: 80px;
+    vertical-align: top;
+  }
+  
+  .pick img {
+    width: 100%;
+  }
+  
+  .pick:hover {
+    border-color: lightgreen;
+    transform: scale(1.1);
+  }
+  
+  input {
+    display: none;
+  }
+  
+  .result-section {
+    background-color: rgb(165, 34, 158);
+    padding: 20px;
+    /* width: 10% */
+    display: none;
+  }

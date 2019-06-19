@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Registro</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <form id="signin-form">
+    <h1>Regístrate</h1>
+    <label for="email-input">Email</label>
+    <input id="email-input" type="email" name="email">
+    placeholder
+
+    <label for="password-input">Contraseña</label>
+    <input id="password-input" type="password" name="password1">
+
+    <label for="password2-input">Repite tu contraseña</label>
+    <input id="password2-input" type="password" name="password2">
+
+    <div class="gender-box">
+      <label for="gender-male">Hombre</label>
+      <input id="gender-male" type="radio" name="gender" value="male">
+    </div>
+    <div class="gender-box">
+      <label for="gender-female">Mujer</label>
+      <input id="gender-female" type="radio" name="gender" value="female">
+    </div>
+
+  </form>
+
+  <button id="signin-button" onclick="saveForm()">Registrarse</button>
+
+  <section class="welcome">
+    <h2>Bienvenido</h2>
+    <h3 class="user-mail"></h3>
+    <h3 class="user-gender"></h3>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
